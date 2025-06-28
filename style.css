@@ -1,20 +1,3 @@
-#adil {
-  display: flex;
-  gap: 50px;
-  justify-content: center;
-  width: 100%;
-}
-@media (max-width: 1000px) {
-  #adil {
-    flex-direction: column;
-    justify-content: center;
-
-    width: 1200px;
-  }
-  .product-card {
-    width: 800px;
-  }
-}
 .jahaz {
   position: absolute;
   bottom: 20px;
@@ -22,4 +5,55 @@
   opacity: 0;
   transition: all 4s;
   rotate: 45deg;
+}
+@media (max-width: 1100px) {
+  .jahaz {
+    rotate: 25deg;
+  }
+}
+
+@media (max-width: 1000px) {
+  .jahaz {
+    rotate: 23deg;
+  }
+}
+
+@media (max-width: 900px) {
+  .jahaz {
+    rotate: 20deg;
+  }
+}
+
+@media (max-width: 800px) {
+  .jahaz {
+    rotate: 17deg;
+  }
+}
+
+@media (max-width: 700px) {
+  .jahaz {
+    rotate: 15deg;
+  }
+}
+@media (max-width: 600px) {
+  .jahaz {
+    rotate: 10deg;
+  }
+}
+@media (max-width: 500px) {
+  .jahaz {
+    rotate: 12deg;
+  }
+}
+
+@media (max-width: 400px) {
+  .jahaz {
+    rotate: 7deg;
+  }
+}
+
+@media (max-width: 320px) {
+  .jahaz {
+    rotate: 3deg;
+  }
 }
