@@ -1,0 +1,17 @@
+#adil {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  width: 100%;
+}
+@media (max-width: 1000px) {
+  #adil {
+    flex-direction: column;
+    justify-content: center;
+
+    width: 1200px;
+  }
+  .product-card {
+    width: 800px;
+  }
+}
